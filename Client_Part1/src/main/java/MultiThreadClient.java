@@ -9,8 +9,8 @@ import Model.SwipeEventProducer;
 public class MultiThreadClient {
 
   private static final int totalReq = 500000;
-  private static final int numOfThread = 100;
-  private static final int firstNumWork = 5000;
+  private static final int numOfThread = 80;
+  private static final int firstNumWork = 6250;
 
   public static void main(String[] args) throws InterruptedException {
     String urlIP = "http://35.162.40.20:8080/Server_war/";

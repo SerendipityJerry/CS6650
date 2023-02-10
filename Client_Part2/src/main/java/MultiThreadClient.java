@@ -87,10 +87,6 @@ public class MultiThreadClient {
     System.out.println("Max response time (in milliseconds):" + maxResTime);
 
     Integer[] plot_data = statistics.get_plot();
-//    for (int i = 0; i < plot_data.length; i++) {
-//      System.out.println("Second" + i + " 's throughput: " + plot_data[i]);
-//    }
-
     ChartGenerator chartGenerator = new ChartGenerator(plot_data, "/Users/wangzhaolei/Documents/Assignment1/Client_Part2/src/main/java/Output/PlotPerformance.xlsx");
   }
 
